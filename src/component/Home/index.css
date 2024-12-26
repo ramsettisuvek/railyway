@@ -1,0 +1,75 @@
+.bg {
+    display: flex;
+    flex-direction: column;
+    
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .small-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+  }
+  
+  .image1, .image2 {
+    height: auto;
+    width: 100px;
+    margin: 0 15px;
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .another-container{
+    background-image: url("../../assest/vijawada.webp"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+  }
+  .input-contaier{
+    height: 50vh;
+    width: 50vh;
+    background-color:#ffffff;
+    margin-left: 450px;
+    margin-top: 100px;
+    border-radius: 20px;
+    opacity: 0.9;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .railylogo{
+    height: 20vh;
+    width: 20vh;
+    padding-left: 80px;
+  }
+  .inputuser{
+    width: 90%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  .labelUSer {
+    font-size: 16px;             /* Set the font size for the label */
+    font-family: "roboto";
+    color: #000000;
+    padding-right: 250px; 
+  }
+.button{
+  background-color: rgb(76, 76, 193);
+  color: white;
+  font-family: "roboto";
+  width: 90%;
+}
+.bu{
+  font-size: 200px;
+}

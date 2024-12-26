@@ -1,0 +1,41 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-between; /* Push items to opposite sides */
+    align-items: center; /* Align items vertically */
+    width: 98%;
+    background-color:navy;
+    padding: 10px 40px; /* Added horizontal padding */
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+}
+
+.button {
+    padding: 0; /* Reset padding for consistency */
+}
+
+.logout-button {
+    background-color: #2563eb; /* Blue color */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #1e40af; /* Darker blue */
+}
